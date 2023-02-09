@@ -16,7 +16,7 @@ streamlit.dataframe(fruits_to_show)
 
 
 
-
+streamlit.header("Fruityvice Fruit Advice!")
 # Display the table on the page.
 import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
